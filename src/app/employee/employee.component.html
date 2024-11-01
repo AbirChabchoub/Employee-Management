@@ -1,0 +1,11 @@
+<div class="container-fluid g-0 p-2">
+
+    <div class="row g-0">
+
+        <div *ngFor='let employee of employees'>
+            <app-employee-child [employeeData]="employee"></app-employee-child>
+        </div>
+
+    </div>
+
+</div>
